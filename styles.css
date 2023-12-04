@@ -1,0 +1,47 @@
+* {
+    border: 2px solid red;
+    /* Alternaitve box model
+    sets it so that combined width/height = the 
+    values set to width/height.
+    Including margins, paddings, borders */
+    box-sizing: border-box;
+}
+div {
+    color:purple;
+    font-family: "Times New Roman", sans-serif; 
+    font-size: 22px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.div-class {
+    color:red
+}
+
+/* Div ids are accessed via # instead of . */
+#div-id{
+    color:aqua
+}
+
+p{
+    color: black;
+    background-color: aquamarine;
+}
+
+/* Selectors can be chained as a list */
+/* div class="subsection header" */
+/* p class="subsection preview" */
+.subsection.header{
+    color:black
+}
+.subsection.preview{
+    color:blue
+}
+
+img {
+    /* good idea to explicitly state height and width
+    this is to reserve space on page until image loads
+    otherwise can cause drastic shift of other content */
+    height: auto;
+    width: 500px;
+}

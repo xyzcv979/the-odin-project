@@ -45,3 +45,15 @@ img {
     height: auto;
     width: 500px;
 }
+
+
+
+/* Flexbox */
+.body {
+    /* by default, flexes in row direction. Can specify column or row via flex-direction */
+    display: flex;
+    /* justify-content sets flex along the axis (currently row) */
+    justify-content: center; 
+    /* align-items sets flex along the other axis (current column) */
+    align-items: center;
+}

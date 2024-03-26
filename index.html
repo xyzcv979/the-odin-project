@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css"/>
+    <script src="javascript.js" defer></script>
 </head>
 <body>
     <!-- headers and paragraphs -->
@@ -37,6 +38,46 @@
 
     <!-- images -->
     <img src="./images/dog.jpg">
+
+    <div id="container"></div>
+
+    <!-- Javascript! -->
+    <script>
+        console.log("Hello world");
+        // functions
+        function printAnimal(animal) {
+            console.log("Hi " + animal);
+        }
+        printAnimal("dog");
+    </script>
+
+    <!-- 3 methods for events -->
+    <!-- 1. Add directly onto html element, not recommended cause it clutters HTML -->
+    <button onclick="alert('Hello World1')">Click Me</button>
+    <!-- 2. Move the Javascript to the JS file and use querySelector, but still have problem that DOM element can only have 1 onclick property-->
+    <button id="btn">Click Me</button>
+    <!-- 3. Using event listener which allows multiple event listeners if needed. This approach is more flexible -->
+    <button id="btn2">Click Me Too</button>
+
+    <!-- Attaching listeners to group of nodes -->
+    <div id="nodes">
+        <button id="1">Click Me</button>
+        <button id="2">Click Me</button>
+        <button id="3">Click Me</button>
+    </div>
+
+    <!-- Shopping list example to practice DOM manipulation -->
+    <h1>My shopping list</h1>
+
+    <div>
+      <label for="item-input">Enter a new item:</label>
+      <input type="text" name="item" id="item-input">
+      <button id="add-btn">Add item</button>
+    </div>
+
+    <ul id="my-list">
+
+    </ul>
     
 </body>
 </html>

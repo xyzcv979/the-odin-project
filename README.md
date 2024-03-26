@@ -9,4 +9,5 @@
 - [Calculator](https://github.com/xyzcv979/odin-project5-calculator)
 
  ## Exercises:
- - [CSS Exercises:](https://github.com/xyzcv979/odin-css-exercises)
+ - [CSS Exercises](https://github.com/xyzcv979/odin-css-exercises)
+ - [Javascript Exercises](https://github.com/xyzcv979/odin-project-javascript-exercises)
